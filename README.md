@@ -4,35 +4,28 @@ Installation
 Make sure you have Node.js and npm installed on your machine.
 
 Clone the repository:
+```git clone <repository-url>```
 
-bash
-Copy code
-git clone <repository-url>
 Change into the project directory:
+```cd <project-directory>```
 
-bash
-Copy code
-cd <project-directory>
 Install dependencies:
+```npm install```
 
-bash
-Copy code
-npm install
 Start the development server:
+```npm run dev```
 
-bash
-Copy code
-npm run dev
 This will open the development server on http://localhost:3000 by default.
 
-Usage
-The form collects information such as first name, last name, email, phone number, and a message.
+Usage :
 
-Validation is performed for each input field, ensuring that valid data is entered. Invalid entries trigger error messages.
+-> The form collects information such as first name, last name, email, phone number, and a message.
 
-The form includes a hidden honeypot field to prevent spam submissions.
+-> Validation is performed for each input field, ensuring that valid data is entered. Invalid entries trigger error messages.
 
-Upon successful submission, the form data is sent to the specified Google Apps Script URL.
+-> The form includes a hidden honeypot field to prevent spam submissions.
+
+-> Upon successful submission, the form data is sent to the specified Google Apps Script URL.
 
 Loading, success, and error states are displayed to provide feedback to the user during form submission.
 
