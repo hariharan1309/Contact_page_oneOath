@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+.text-gradient-1{
+    @apply text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 
+}
+
+.text-gradient-2{
+    @apply text-transparent bg-clip-text bg-gradient-to-br from-cyan-500 via-blue-500 to-purple-800
+}
+.text-gradient-3{
+    @apply text-transparent bg-clip-text bg-gradient-to-br from-emerald-200 via-emerald-500 to-green-700
+}
+.blue-gradient{
+    @apply bg-gradient-to-br from-cyan-500 via-blue-500 to-purple-800
+}
+.purple-gradient{
+    @apply bg-gradient-to-br from-indigo-400 via-violet-500 to-purple-800
+}
+
+.green-gradient{
+    @apply bg-gradient-to-br from-emerald-200 via-emerald-500 to-green-700
+} 
+.form-container{
+    @apply p-3 opacity-95 font-semibold
+}
+.form-container input{
+    @apply w-52 h-8 focus-within:border-blue-400 border-2 border-blue-100 rounded-md px-2 focus:outline-none font-sans 
+
+}
+.form-container textarea{
+    @apply w-[350px] h-32 my-2 focus-within:border-blue-400 border-2 border-blue-100 rounded-md px-2 focus:outline-none font-sans resize-none placeholder-zinc-400
+}
+.image-container{
+    @apply flex flex-row items-center justify-center mt-10
+    }
+    
+
+}
