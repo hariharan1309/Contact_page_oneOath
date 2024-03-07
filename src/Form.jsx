@@ -152,21 +152,21 @@ export default function Form({ setSentStatus }) {
             </div>
         </form>
 
-        <img src="../img/bg1.png" alt="Image" className='max-md:hidden' />
+        <img src="/img/bg1.png" alt="Image" className='max-md:hidden' />
       </div>
       {isLoading &&
       <div className='z-30 fixed  top-1/2 left-1/2'>
           {isError && <div className='flex flex-col top-1/2 w-[100px] h-[100px] mx-auto'>
-              <img src="../img/error.gif" alt="" />
+              <img src="/img/error.gif" alt="" />
               <span className='font-semibold text-red-500 text-center'> Error </span>
             </div>}
           {isSent ? <div>
-            <img src="../img/sent.gif" alt="success" className='flex flex-col top-1/2 w-[100px] h-[100px] mx-auto' />
+            <img src="/img/sent.gif" alt="success" className='flex flex-col top-1/2 w-[100px] h-[100px] mx-auto' />
             <span className='text-gradient-3 items-center'>sent ...</span>
           </div>:
           !isError && 
             <div>
-              <img src="../img/loading.gif" alt="loading" className='flex flex-col top-1/2 w-[100px] h-[100px] mx-auto' />
+              <img src="/img/loading.gif" alt="loading" className='flex flex-col top-1/2 w-[100px] h-[100px] mx-auto' />
             <span className='text-gradient-2 items-center'>
               Loading...  
             </span>

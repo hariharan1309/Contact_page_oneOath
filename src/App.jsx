@@ -11,7 +11,7 @@ function App() {
         <h1 className="text-center font-bold text-4xl text-gradient-1 mt-5 box-border">
           Contact us{" "}
           <img
-            src="../img/write.gif"
+            src="/img/write.gif"
             alt=""
             className="inline w-[100px] h-[100px] z-[-1]"
           />
@@ -19,7 +19,7 @@ function App() {
         {sentStatus ? (
           <div className="box-border">
             <img
-              src="../img/Succes Sent.png"
+              src="img/Succes Sent.png"
               alt=""
               width={400}
             />
